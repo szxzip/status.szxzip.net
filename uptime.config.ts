@@ -59,7 +59,7 @@ const maintenances: MaintenanceConfig[] = [
     // [Optional] default to "Scheduled Maintenance" if not specified
     title: '例行停机',
     // Description of the maintenance, will be shown at status page
-    body: '由于校园宿舍停电政策，故于每晚 23:00 - 次日 6：00 停止服务。',
+    body: '由于校方停电政策，故于每晚 23:00 - 次日 6:00 停止服务。',
     // Start time of the maintenance, in UNIX timestamp or ISO 8601 format
     start: '2026-01-01T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
