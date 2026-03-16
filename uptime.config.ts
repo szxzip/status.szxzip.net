@@ -49,6 +49,12 @@ const workerConfig: WorkerConfig = {
       method: 'GET',
       target: 'https://pi.szxzip.net',
     },
+    {
+      id: 'status',
+      name: 'Status',
+      method: 'GET',
+      target: 'https://status.szxzip.net',
+    },
   ],
 }
 
