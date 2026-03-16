@@ -28,7 +28,7 @@ export default function Header({ style }: { style?: React.CSSProperties }) {
         <div>
           <a
             href={location.pathname == '/' ? 'https://status.szxzip.net' : '/'}
-            target={location.pathname == '/' ? '_blank' : undefined}
+            target={undefined}
           >
             <Image
               src={pageConfig.logo ?? '/logo.svg'}
