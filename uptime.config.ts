@@ -32,6 +32,12 @@ const workerConfig: WorkerConfig = {
       target: 'https://git.szxzip.net',
     },
     {
+      id: 'matrix',
+      name: 'Matrix',
+      method: 'GET',
+      target: 'https://matrix.szxzip.net',
+    },
+    {
       id: 'media',
       name: 'Media',
       method: 'GET',
