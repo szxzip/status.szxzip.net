@@ -44,12 +44,6 @@ const workerConfig: WorkerConfig = {
       target: 'https://media.szxzip.net',
     },
     {
-      id: 'notes',
-      name: 'Notes',
-      method: 'GET',
-      target: 'https://notes.szxzip.net',
-    },
-    {
       id: 'pi',
       name: 'Pi',
       method: 'GET',
