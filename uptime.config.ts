@@ -10,36 +10,7 @@ const pageConfig: PageConfig = {
 
 const workerConfig: WorkerConfig = {
   monitors: [
-    {
-      id: 'www',
-      name: 'Home',
-      method: 'GET',
-      target: 'https://szxzip.net',
-    },
-    {
-      id: 'files',
-      name: 'Files',
-      method: 'GET',
-      target: 'https://files.szxzip.net',
-    },
-    {
-      id: 'matrix',
-      name: 'Matrix',
-      method: 'GET',
-      target: 'https://matrix.szxzip.net',
-    },
-    {
-      id: 'pi',
-      name: 'Pi',
-      method: 'GET',
-      target: 'https://pi.szxzip.net',
-    },
-    {
-      id: 'status',
-      name: 'Status',
-      method: 'GET',
-      target: 'https://status.szxzip.net',
-    },
+
   ],
 }
 
