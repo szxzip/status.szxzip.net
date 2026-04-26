@@ -4,7 +4,7 @@ import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
 const pageConfig: PageConfig = {
   title: "UptimeFlare",
   links: [
-    { link: 'https://szxzip.net', label: 'Home', highlight: true },
+    { link: 'https://github.com/szxzip/szxzip.net', label: 'GitHub', highlight: true },
   ],
 }
 
